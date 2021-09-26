@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 70%;
+}
+body{
+    min-height: 180vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+}
+
+ul, li, a {
+    list-style: none;
+}
+
+.alert-secondary{
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+
+}
+main{
+    background-image: linear-gradient(to top, #94618e, #9b6f96, #a27d9e, #a98ba5, #b099ad, #b4a0b2, #b9a6b6, #bdadbb, #c0aebe, #c3aec0, #c6afc3, #c9afc6);
+}

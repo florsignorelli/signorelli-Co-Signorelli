@@ -1,0 +1,35 @@
+.navegacion{
+    padding: 50px;
+    border-top: 3rem;
+    border-bottom: 3rem;
+    background-image: linear-gradient(to right, #f8eee7, #f7ebe2, #f7e8dd, #f6e5d7, #f5e2d2, #f5e2d2, #f5e2d2, #f5e2d2, #f6e5d7, #f7e8dd, #f7ebe2, #f8eee7);
+    width: 100%;
+    .navbrand__logo{
+        text-align: left;
+        width: 40%;
+        display: inline;
+    }
+    img{
+        position: absolute;
+        left: 40px;
+        top:10px;
+        width: 150px;
+        height: 150px;
+    }
+    img:hover{
+    transform: scale(1.1);
+    }
+    .nav-link{
+    margin: 1rem 1rem;
+    text-decoration: none;
+    color:$principal;
+    font-size:large;
+    font-weight: bold;
+    height: 100%;
+} 
+    .nav-link:hover{
+    color: $primary;
+    transition: 0.5s;
+    font-size: x-large;
+}
+}

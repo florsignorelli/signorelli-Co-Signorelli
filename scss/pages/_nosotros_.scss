@@ -1,0 +1,19 @@
+.mainnos{
+    background-image: linear-gradient(to top, #94618e, #9b6f96, #a27d9e, #a98ba5, #b099ad, #b4a0b2, #b9a6b6, #bdadbb, #c0aebe, #c3aec0, #c6afc3, #c9afc6);
+    .quien{
+    color:seashell;
+    background-color:$principal;
+    display: block;
+    font-size: 40px;
+    text-align:center;
+    font-weight: bold;
+}
+    .textnos{
+    display: block;
+    width: 100vh;
+    text-align: center;
+    color: $secon;
+    padding: 50px;
+    font-size: 30px;
+}
+}

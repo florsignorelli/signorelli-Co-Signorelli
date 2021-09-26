@@ -1,0 +1,33 @@
+footer{
+    padding: 10px;
+    border-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #f8eee7, #f7ebe2, #f7e8dd, #f6e5d7, #f5e2d2, #f5e2d2, #f5e2d2, #f5e2d2, #f6e5d7, #f7e8dd, #f7ebe2, #f8eee7);
+}
+    img{
+    width: 100px;
+    justify-content: center;
+}
+    h2{
+    color:$primary;
+    text-align: justify;
+}
+.seccion-contacto{
+    font-size: 150%;
+    width: 100%;
+    text-align: right;
+    text-decoration: none;
+}
+    .seccion-contacto__wap{
+    color: green;
+}
+    .seccion-contacto__ig{
+    color: hotpink;
+}
+    .seccion-contacto__fb{
+    color:blue;
+}     
+    .seccion-contacto:hover{
+    font-size: 170%;
+}

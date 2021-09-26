@@ -1,0 +1,107 @@
+#mainhome{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+    "parrafo foto"
+    "b1 b1";
+    background-image: linear-gradient(to top, #94618e, #9b6f96, #a27d9e, #a98ba5, #b099ad, #b4a0b2, #b9a6b6, #bdadbb, #c0aebe, #c3aec0, #c6afc3, #c9afc6);
+}
+#parr{
+    grid-area: parrafo;
+    padding: 10px;
+}
+#text-red{
+    width: 100%;
+    height: 50%;
+    color:black;  
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+    text-transform:none;  
+    padding: 40px;
+    background-color: $secon;
+}
+#prinFot{
+    grid-area: foto;
+    text-align: center;
+   /*margin-top: 10px;*/
+}
+#multimedia{
+    grid-area: b1;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+
+#multimedia img{
+    width: 200px;
+    height: 50%;
+    margin: 3rem;
+    border: $secon solid 1rem;
+    animation: rotateMe 1s alternate;
+    transition: animation ease-in-out 1s;
+}
+#multimedia #hel{
+    transform: translate( 1px, -74px);
+}
+#multimedia #cop{
+    transform: translate( 1px, -70px);
+}
+#multimedia #tor{
+    transform: translate(-1px, 50px);
+}
+#multimedia iframe{
+    width: 250px;
+    height: 90%;
+    margin: 3rem;
+    border: $secon solid 1rem;
+    animation: rotateMe 1s alternate;
+    transition: animation ease-in-out 1s;
+    transform: translate(-1px, 39.5px);
+}
+/*BANNER*/
+#carousel-section{
+    display: block;
+    padding: 10px;
+    direction: right;
+}
+.carousel-item{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+background-position: center;
+}
+#carousel-section img{
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+/* Animacion Fotos*/
+@keyframes rotateMe{
+    0%{
+    transform:rotate(0deg);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
+  /*Animacion Logo*/
+@keyframes scaleDo {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+  }
+  

@@ -1,0 +1,16 @@
+.direct{
+    color:seashell;
+    background-color: $principal;
+    display: block;
+    font-size: 40px;
+    text-align:center;
+    font-weight: bold;
+}
+.gomapa{
+    padding: 20px;
+    border: $principal solid 1rem;
+    .direfis p{
+    font-size: 30px;
+    font-weight: bold;
+}
+}
